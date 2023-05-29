@@ -1,0 +1,23 @@
+{    
+    "env": "dev",
+    "webServer": {
+        "port": 3000
+    },
+    "logger": {
+        "console": {
+            "level": "silly",
+            "handleExceptions": true,
+            "json": false,
+            "colorize": true
+        },
+        "file": {
+            "filename": "logs/logs.txt",
+            "level": "silly",
+            "handleExceptions": true,
+            "json": true,
+            "maxSize": 512000,
+            "maxFiles": 5,
+            "colorize": false
+        }
+    }
+}
